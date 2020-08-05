@@ -65,7 +65,7 @@ int main()
             }
             else if (comp == 2) //1-rock 2-paper 3-scissor
             {
-                printf("\n\n\t\t[User] : R O C K  -VS-  P A P E R  : [Comp] \n\n");
+                printf("\n\n\t\t[User] : R O C K  -VS-  S C I S S O R  : [Comp] \n\n");
                 printf("\n\n\t\tCONGRATULATIONS!!!You won\n");
             }
             else
