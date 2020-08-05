@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 //Master Branch
-=======
-//Update Branch
->>>>>>> update1
 #include <stdio.h>
 #include <conio.h>
 void Welcome(void);
