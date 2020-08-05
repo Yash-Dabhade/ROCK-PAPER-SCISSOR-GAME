@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //Master Branch
+=======
+//Update Branch
+>>>>>>> update1
 #include <stdio.h>
 #include <conio.h>
 void Welcome(void);
@@ -59,42 +63,63 @@ int main()
         case 1:
             comp = computer();
             if (choice == comp)
-                printf("\nDraw\n");
+            {
+                printf("\n\n\t\t[User] : R O C K  -VS-  R O C K  : [Comp] \n\n");
+                printf("\n\n\t\tDraw\n");
+            }
             else if (comp == 2) //1-rock 2-paper 3-scissor
-                printf("\nCONGRATULATIONS!!!You won\n");
+            {
+                printf("\n\n\t\t[User] : R O C K  -VS-  P A P E R  : [Comp] \n\n");
+                printf("\n\n\t\tCONGRATULATIONS!!!You won\n");
+            }
             else
             {
-                printf("\nAlas!!You lost\n");
+                printf("\n\n\t\t[User] : R O C K  -VS-  P A P E R  : [Comp] \n\n");
+                printf("\n\n\t\tAlas!!You lost\n");
             }
 
             break;
         case 2:
             comp = computer();
             if (choice == comp)
-                printf("\nDraw\n");
+            {
+                printf("\n\n\t\t[User] : P A P E R  -VS-  P A P E R  : [Comp] \n\n");
+                printf("\n\n\t\tDraw\n");
+            }
             else if (comp == 1) //1-rock 2-paper 3-scissor
-                printf("\nCONGRATULATIONS!!!You won\n");
+            {
+                printf("\n\n\t\t[User] : P A P E R  -VS-  R O C K  : [Comp] \n\n");
+                printf("\n\n\t\tCONGRATULATIONS!!!You won\n");
+            }
             else
             {
-                printf("\nAlas!!You lost\n");
+                printf("\n\n\t\t[User] : P A P E R  -VS-  S C I S S O R  : [Comp] \n\n");
+                printf("\n\n\t\tAlas!!You lost\n");
             }
             break;
         case 3:
             comp = computer();
             if (choice == comp)
-                printf("\nDraw\n");
+            {
+                printf("\n\n\t\t[User] : S C I S S O R  -VS-   S C I S S O R  : [Comp] \n\n");
+                printf("\n\n\t\tDraw\n");
+            }
             else if (comp == 2) //1-rock 2-paper 3-scissor
-                printf("\nCONGRATULATIONS!!!You won\n");
+            {
+                printf("\n\n\t\t[User] : S C I S S O R  -VS-  P A P E R  : [Comp] \n\n");
+                printf("\n\n\t\tCONGRATULATIONS!!!You won\n");
+            }
             else
             {
-                printf("\nAlas!!You lost\n");
+                printf("\n\n\t\t[User] : S C I S S O R  -VS-  R O C K  : [Comp] \n\n");
+                printf("\n\n\t\tAlas!!You lost\n");
             }
             break;
         case 4:
             exit(0);
             break;
         default:
-            printf("\nInvalid input!!!\n");
+            printf("\n\n\t\tInvalid input!!!\n");
             break;
         }
         system("PAUSE");
